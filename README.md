@@ -21,7 +21,7 @@
   `sudo apt install -y xfce4`
   `sudo apt install -y xfce4-goodies`
   `systemctl status display-manager.service`
-- if gdm3 is not used then:  
+- if gdm3 is not installed then go for it:  
   `sudo apt install -y gdm3`
   `sudo dpkg-reconfigure gdm3`
   `sudo systemctl start gdm3.service`    
